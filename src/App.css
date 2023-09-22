@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+main{
+  padding: 40px;
+}
+
+.nav-el{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  color: white;
+  padding: 15px;
+  background-image: linear-gradient(
+  90deg,
+  hsl(323deg 100% 20%) 0%,
+  hsl(305deg 100% 20%) 50%,
+  hsl(275deg 100% 27%) 100%
+  );
+}
+
+.header-img{
+  height: 100%;
+  margin-right: 10px;
+}
+
+.title-el{
+  font-size: 25px;
+  margin-right: auto;
+}
+
+.form-el{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  margin-bottom: 20px;
+
+}
+
+.form-btn{
+  grid-column: 1/-1;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  text-indent: 5px;
+  background-image: linear-gradient(
+    90deg,
+    hsl(323deg 100% 20%) 0%,
+    hsl(305deg 100% 20%) 50%,
+    hsl(275deg 100% 27%) 100%
+    );
+    color: white;
+    font-weight: 600;
+}
+
+.form-input{
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  border: 1px solid #D5D4D8;
+}
+
+.meme {
+  position: relative;
+}
+
+  .meme--image {
+    width: 30%; /* Set the width to 100% to make images the same width */
+    display: block; /* Remove any default inline styles */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 10px 5px;
+  font-family: impact, sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
